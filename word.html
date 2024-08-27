@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Word</title>
+    <link rel="icon" href="img/ICATI.png" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- AdminLTE CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/css/adminlte.min.css">
+    <style>
+        .dark-mode {
+            background-color: #343a40;
+            color: #ffffff;
+        }
+        .dark-mode .card {
+            background-color: #454d55;
+            color: #ffffff;
+        }
+        .dark-mode .navbar {
+            background-color: #343a40 !important;
+        }
+        .dark-mode .main-footer {
+            background-color: #343a40;
+            color: #ffffff;
+        }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 15px;
+            }
+            .card {
+                margin-bottom: 20px;
+            }
+        }
+        /* Colores para los iconos */
+        .fa-home { color: #4CAF50; }
+        .fa-file-excel { color: #217346; }
+        .fa-file-word { color: #2B579A; }
+        .fa-file-powerpoint { color: #D24726; }
+        .fa-database { color: #00758F; }
+        .fa-windows { color: #0078D6; }
+        .fa-moon, .fa-sun { color: #FFA500; }
+    </style>
+</head>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <button id="darkModeToggle" class="btn btn-secondary">
+                        <i class="fas fa-moon"></i> Modo Oscuro
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="index.html" class="brand-link">
+                <img src="img/WhatsApp Image 2024-08-23 at 8.31.38 AM.jpeg" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <span class="brand-text font-weight-light">Sistemas Informaticos</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                <i class="nav-icon fas fa-home"></i>
+                                <p>Inicio</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="excel.html" class="nav-link">
+                                <i class="nav-icon fas fa-file-excel"></i>
+                                <p>Excel</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="word.html" class="nav-link">
+                                <i class="nav-icon fas fa-file-word"></i>
+                                <p>Word</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="powerpoint.html" class="nav-link">
+                                <i class="nav-icon fas fa-file-powerpoint"></i>
+                                <p>Power Point</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="base de datos.html" class="nav-link">
+                                <i class="nav-icon fas fa-database"></i>
+                                <p>Base de Datos</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="windows.html" class="nav-link">
+                                <i class="nav-icon fab fa-windows"></i>
+                                <p>Windows</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <h1 class="m-0">Curso de Word</h1>
+                </div>
+            </div>
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="mb-4">Niveles del Curso</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/word basico 1.png" class="card-img-top" alt="Word Básico">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-file-word mr-2"></i>Word Básico</h5>
+                                    <p class="card-text">
+                                        <strong>Contenido detallado:</strong>
+                                        <ul>
+                                            <li>Introducción a la interfaz de Word</li>
+                                            <li>Creación y edición de documentos básicos</li>
+                                            <li>Formato de texto y párrafos</li>
+                                            <li>Inserción de imágenes y formas simples</li>
+                                            <li>Configuración de página y márgenes</li>
+                                            <li>Revisión ortográfica y gramatical</li>
+                                            <li>Impresión de documentos</li>
+                                            <li>Guardado y apertura de archivos</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/word intermedio 1.jpg" class="card-img-top" alt="Word Intermedio">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-file-word mr-2"></i>Word Intermedio</h5>
+                                    <p class="card-text">
+                                        <strong>Contenido detallado:</strong>
+                                        <ul>
+                                            <li>Estilos y temas avanzados</li>
+                                            <li>Creación de tablas y formato avanzado</li>
+                                            <li>Inserción de gráficos y SmartArt</li>
+                                            <li>Uso de plantillas y formularios</li>
+                                            <li>Creación de índices y tablas de contenido</li>
+                                            <li>Trabajo con columnas y secciones</li>
+                                            <li>Uso de referencias cruzadas y notas al pie</li>
+                                            <li>Combinación de correspondencia básica</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/word experto 1.jpg" class="card-img-top" alt="Word Avanzado">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-file-word mr-2"></i>Word Avanzado</h5>
+                                    <p class="card-text">
+                                        <strong>Contenido detallado:</strong>
+                                        <ul>
+                                            <li>Macros y automatización de tareas</li>
+                                            <li>Creación de formularios avanzados</li>
+                                            <li>Trabajo colaborativo y control de cambios</li>
+                                            <li>Protección y seguridad de documentos</li>
+                                            <li>Personalización de la interfaz de Word</li>
+                                            <li>Integración con otras aplicaciones de Office</li>
+                                            <li>Creación de documentos maestros</li>
+                                            <li>Publicación y distribución de documentos</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <strong>&copy; 2024 Sistemas Informáticos.</strong> Todos los derechos reservados.
+        </footer>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/js/adminlte.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Verificar si el modo oscuro está activado en localStorage
+            if (localStorage.getItem('darkMode') === 'true') {
+                $('body').addClass('dark-mode');
+                $('.navbar').addClass('navbar-dark').removeClass('navbar-light');
+                $('.card').addClass('bg-dark');
+                $('#darkModeToggle').html('<i class="fas fa-sun"></i> Modo Claro');
+            }
+
+            $('#darkModeToggle').click(function() {
+                $('body').toggleClass('dark-mode');
+                $('.navbar').toggleClass('navbar-dark navbar-light');
+                $('.card').toggleClass('bg-dark');
+                if ($('body').hasClass('dark-mode')) {
+                    $(this).html('<i class="fas fa-sun"></i> Modo Claro');
+                    localStorage.setItem('darkMode', 'true');
+                } else {
+                    $(this).html('<i class="fas fa-moon"></i> Modo Oscuro');
+                    localStorage.setItem('darkMode', 'false');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
